@@ -1,0 +1,75 @@
+.searchcontent{
+	margin-bottom: 12vw;
+}
+.linputer{
+	position: relative;
+	width: 100%;
+    border-bottom: 1px solid #e8e8e8;
+    height: 12vw;
+}
+.linputer .lbutton{
+	float: left;
+    height: 12vw;
+    line-height: 12vw;
+    font-size: 3vw;
+    text-align: center;
+    width: 23.46vw;
+    border-right: 1px solid #e8e8e8;
+}
+.linputer .lbutton span{
+	display: block;
+}
+.linputer .lbutton .city{
+	font-size: 4vw;
+}
+.linputer .lbutton .cityicon{
+	position: absolute;
+	top: 5.33vw;
+	left: 18.66vw;
+	width: 2.26vw;
+    height: 1.86vw;
+	background: url(../icon.png) no-repeat 0 0;
+	background-size: 50vw 50vw;
+}
+.linputer .rinput{
+	height: 12vw;
+    margin-left: 23.73vw;
+    position: relative;
+}
+.linputer .rinput .inputer{
+	display: block;
+    border: none;
+    padding: 2.66vw 0;
+    height: 6.66vw;
+    line-height: 6.66vw;
+    color: #333333;
+    width: 75%;
+    margin: 0 0 0 5%;
+    font-size: 4vw;
+    float: left;
+    outline: none;
+}
+.linputer .rinput .inputer::-webkit-input-placeholder{
+	font-size: 4vw;
+}
+.linputer .rinput .search{
+	display: inline-block;
+    width: 20%;
+    height: 12vw;
+    line-height: 12vw;
+    float: right;
+    position: relative;
+}
+.linputer .rinput .search .searchicon{
+	display: block;
+    margin: 3.73vw auto 0 auto;
+    width: 4.53vw;
+    height: 4.53vw;
+    background: url(../icon.png) no-repeat -2.3vw 0vw;
+    background-size: 60vw 60vw;
+}
+.citylist{
+	position: absolute;
+	width: 100%;
+	background: #fff;
+}

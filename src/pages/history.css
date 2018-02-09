@@ -1,0 +1,29 @@
+.history{
+	position: absolute;
+	width: 100%;
+	opacity: 0.8;
+	max-height:60vw;
+	overflow: hidden;
+}
+.historybox{
+	background-color: #fafafa;
+    color: #666666;
+    height: 12vw;
+    line-height: 12vw;
+    font-size: 4vw;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 6.13vw 0 6.13vw;
+    line-height: 12vw;
+    position: relative;
+}
+.historybox span{
+	position: absolute;
+	top:3vw;
+	right: 4.13vw;
+	display: block;
+	width: 6vw;
+	height: 6vw;
+	float: right;
+	background: url(../icon.png) no-repeat -21.86vw 1.33vw;
+	background-size: 80vw 80vw;
+}

@@ -1,0 +1,21 @@
+
+.obcity{
+	border-bottom: 1px solid #e8e8e8;
+    height: 6.66vw;
+    line-height: 6.66vw;
+    padding: 0 4vw;
+    font-size: 4vw;
+    color: #888;
+}
+.cityname{
+	border-bottom: 1px solid #e8e8e8;
+	overflow: hidden;
+}
+.lcity{
+	width: 33vw;
+	float: left;
+	height: 16vw;
+	text-align: center;
+	line-height: 16vw;
+	font-size: 4vw;
+}

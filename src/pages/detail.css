@@ -1,0 +1,225 @@
+header{
+    height: 12vw;
+    line-height: 12vw;
+    background-color: #00b38a;
+    color: #fff;
+    font-size:4.8vw;
+    text-align: center;
+    position: relative
+}
+header .left{
+	position: absolute;
+	left: 0;
+	top: 2.66vw;
+	width: 10.66vw;
+	height: 7vw;
+	background: url(../lagou.png) no-repeat 3.73vw -4.26vw;
+	z-index: 999;
+	background-size: 66.66vw 66.66vw;
+}
+header .right{
+	position: absolute;
+	right: 0;
+	top: 2.66vw;
+	width: 10.66vw;
+	height: 7vw;
+	background: url(../lagou.png) no-repeat -12.37vw -10.56vw;
+	z-index: 999;
+	background-size: 66.66vw 66.66vw;
+}
+.postitle{
+	height: 12.8vw;
+    line-height: 12.8vw;
+    padding: 0 4vw;
+    border-bottom: 1px solid #e8e8e8;
+}
+.postitle .title{
+	color: #333;
+    font-size: 5vw;
+    max-width: 70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+}
+.postitle .activeable{
+	float: right;
+    width: 10.4vw;
+    position: relative;
+    text-align: center;
+    padding: 1.6vw 2.66vw 0 2.66vw;
+    height:11.46vw;
+}
+.postitle .activeable .icon{
+	background: url(../lagou.png) no-repeat -36vw -1.9vw;
+    background-size: 50vw 50vw;
+    display: block;
+    width: 4vw;
+    height: 4vw;
+    margin: 0 auto;
+}
+.postitle .activeable .text{display: block;
+    color: #888;
+    font-size: 2vw;
+    line-height: 8vw;
+}
+.term{
+	border-bottom: 1px solid #e8e8e8;
+    min-height: 2.66vw;
+    padding: 4vw;
+    overflow: hidden;
+}
+.term .terms{
+	overflow: hidden;
+}
+.term .terms .termall{
+	float: left;
+    color: #333;
+    font-size: 3.66vw;
+    position: relative;
+    width: 33.33%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 2.93vw;
+} 
+.term .terms .termall .icon{
+	display: inline-block;
+    height: 3.46vw;
+    width: 3.46vw;
+    vertical-align: middle;
+} 
+.term .terms .termsalary .icon{
+	background: url(../icon.png) no-repeat -12.26vw -9.06vw;
+	background-size: 50vw 50vw;
+}
+.term .terms .termaddress{
+	text-align: center;
+}
+.term .terms .termaddress .icon{
+	background: url(../icon.png) no-repeat -15vw -9.06vw;
+	background-size: 50vw 50vw;
+}
+.term .terms .termnature{
+	text-align: right;
+}
+.term .terms .termnature .icon{
+	background: url(../icon.png) no-repeat -18vw -9.06vw;
+	background-size: 50vw 50vw;
+}
+.term .terms .termyear{
+	text-align: left;
+}
+.term .terms .termyear .icon{
+	background: url(../icon.png) no-repeat -21vw -9.06vw;
+	background-size: 50vw 50vw;
+}
+.term .terms .termeduction{
+	text-align: center;
+}
+.term .terms .termeduction .icon{
+	background: url(../icon.png) no-repeat -25vw -9.06vw;
+	background-size: 50vw 50vw;
+}
+.term .temtation{
+	color: #888;
+    word-break: break-all;
+    font-size: 4vw;
+}
+.company{
+	border-bottom: 1px solid #e8e8e8;
+    min-height: 2.66vw;
+    padding: 4vw;
+    overflow: hidden;
+}
+.company img{
+	width: 16vw;
+    height: 16vw;
+    float: left;
+}
+.company .desc{
+	margin-left: 18.66vw;
+    min-height: 2.66vw;
+}
+.company .desc .dleft{
+    float: left;
+    min-height: 2.66vw;
+    min-width: 2.66vw;
+    max-width: 80%;
+ }   
+.company .desc .title{
+	color: #00b38a;
+    font-size:5.5vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 1.33vw;
+}
+.company .desc p{
+    color: #888;
+    font-size: 3.5vw;
+}
+.company .desc .dright{
+	float: right;
+    display: inline-block;
+    width: 6.13vw;
+    height: 7.73vw;
+    background: url(../icon.png) no-repeat -42.66vw 0.8vw;
+    background-size: 50vw 50vw;
+    margin-top: 2.66vw;
+}
+.positiondesc{
+	min-height: 2.66vw;
+}
+.positiondesc .header{
+	background-color: #00b38a;
+    height: 9.6vw;
+    line-height: 9.6vw;
+    padding-left: 4vw;
+    color: #00b38a;
+    font-size: 4vw;
+    background-color: #d2f9f0
+}
+.positiondesc .content{
+	word-break: break-all;
+    padding: 4vw;
+    color: #555;
+    font-size: 3.5vw;
+    line-height: 5.56vw;
+} 
+.eval .header{
+	background-color: #00b38a;
+    height: 9.6vw;
+    line-height: 9.6vw;
+    padding-left: 4vw;
+    color: #00b38a;
+    font-size: 4vw;
+    background-color: #d2f9f0
+}
+.eval .content{
+	word-break: break-all;
+    padding: 4vw;
+    color: #555;
+    font-size: 3.5vw;
+    line-height: 5.56vw;
+    min-height: 10vw;
+}
+.fixbtn{
+	position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    height: 11.73vw;
+    width: 92%;
+    padding: 3.2vw 4%;
+    line-height: 11.73vw;
+    background-color: rgba(255,255,255,0.8);
+}
+.fixbtn .btn{
+	width: 100%;
+    background-color: #00b38a;
+    color: #fff;
+    font-size: 5vw;
+    text-align: center;
+    border-radius: 0.8vw;
+}

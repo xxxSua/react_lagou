@@ -1,0 +1,99 @@
+.registpage{
+	width: 83.46vw;
+	height: 100%;
+	margin:0 auto;
+	margin-top: 10.66vw;
+}
+.registpage .registheader{
+	height: 6.66vw;
+	margin-bottom: 12.33vw;
+}
+.registpage .registheader h2{
+	float: left;
+	font-size: 5.5vw;
+	font-weight: 300;
+}
+.registpage .registheader a{
+	display: block;
+	float: right;
+	color: #00b38a;
+	font-size: 3.5vw;
+}
+.registpage>div{
+	border-bottom: 1px solid #E8E9EB;
+	height: 6.66vw;
+	width: 100%;
+	padding: 2.33vw 0;
+	margin-bottom: 3.33vw;
+}
+.registpage .contry input{
+	outline: none;
+	height: 6.66vw;
+	border: none;
+}
+.registpage .contry .countrynum{
+	float: left;
+	width: 20%;
+	font-size: 4.66vw;
+}
+.registpage .contry .registphone{
+	float: left;
+	width: 80%;
+}
+.registpage .contry input::-webkit-input-placeholder{
+	color: #ccc;
+	font-size: 4.33vw;
+}
+.registpage .code {
+	position: relative;
+}
+.registpage .code .registnum{
+	outline: none;
+	float: left;
+	height: 6.66vw;
+	border: none;
+}
+.registpage .code .codeimg img{
+	position: absolute;
+	right: 0px;
+	top:-7px;
+}
+.registpage .code input::-webkit-input-placeholder{
+	color: #ccc;
+	font-size: 4.33vw;
+}
+.registpage .codenum .registcode{
+	outline: none;
+	float: left;
+	height: 6.66vw;
+	border: none;
+}
+.registpage .codenum .codenumbtn{
+	color: #000;
+	font-weight: 300;
+	float: right;
+}
+.registpage .codenum input::-webkit-input-placeholder{
+	color: #ccc;
+	font-size: 4.33vw;
+}
+.registpage .bigregistbtn{
+	margin-top:10.66vw;
+	width: 100%;
+	height: 11.70vw;
+	background-color: #00b38a;
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 4.5vw;
+}
+.registpage .registtxt{
+	border: none;
+	color: #999;
+    font-size: 3.37vw;
+    margin-top: 3.53vw;
+}
+.registpage .registtxt span{
+	font-size: 3.8vw;
+	color: #666;
+}
